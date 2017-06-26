@@ -27,28 +27,7 @@ import { Component } from '@angular/core';
   `],
   template: `
   <div>
-    <div id="sidebar">
-      <nav>
-        <a routerLink="/" routerLinkActive="active">Home</a>
-        <a routerLink="/about" routerLinkActive="active">About</a>
-      </nav>
-    </div>
-    <div class="mui-appbar" id="main-bar">
-      <div class="mui-container-fluid">
-        <nav class="mui-row" role="navigation">
-          <div class="mui-col-sm-8 mui-col-sm-offset-2">
-            Google Cloud Platform @ ng-conf 2016
-          </div>
-        </nav>
-      </div>
-    </div>
-    <div id="content" class="mui-container-fluid">
-      <main class="mui-row">
-        <div class="mui-col-sm-8 mui-col-sm-offset-2">
-          <router-outlet></router-outlet>
-        </div>
-      </main>
-    </div>
+    <h5>Geotest 3</h5>
   </div>
   `
 })
